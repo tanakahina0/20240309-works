@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>うちの子クイズ</title>
+</head>
+<body>
+    <h2>うちの子クイズ</h2>
+    
+    <section>
+        <!-- <div class="pad">
+             指球 -->
+            <!-- <div class="digitals">
+              <div class="digital"></div>
+              <div class="digital"></div>
+              <div class="digital"></div>
+              <div class="digital"></div>
+            </div> -->
+            <!-- 掌球 -->
+            <!-- <div class="metacarpal"></div>
+            </div> -->
+        <p id="question_sentence"></p>
+        <button value="" onclick="audio()">
+            <span class="answer_text"></span>
+            <audio id="btn_audio">
+                <source src="./audio/正解.mp3" type="audio/mp3">
+            </audio>
+            <audio id="btn_audio2">
+                <source src="./audio/不正解.mp3" type="audio/mp3">
+            </audio>
+            <audio id="btn_audio3">
+                <source src="./audio/惜しい.mp3" type="audio/mp3">
+            </audio>
+        </button>
+        <button value="" onclick="audio()">
+            <span class="answer_text"></span>
+            <audio id="btn_audio">
+                <source src="./audio/正解.mp3" type="audio/mp3">
+            </audio>
+            <audio id="btn_audio2">
+                <source src="./audio/不正解.mp3" type="audio/mp3">
+            </audio>
+            <audio id="btn_audio3">
+                <source src="./audio/惜しい.mp3" type="audio/mp3">
+            </audio>
+        </button>
+        <button value="" onclick="audio()">
+            <span class="answer_text"></span>
+            <audio id="btn_audio">
+                <source src="./audio/正解.mp3" type="audio/mp3">
+            </audio>
+            <audio id="btn_audio2">
+                <source src="./audio/不正解.mp3" type="audio/mp3">
+            </audio>
+            <audio id="btn_audio3">
+                <source src="./audio/惜しい.mp3" type="audio/mp3">
+            </audio>
+        </button>
+        <!-- <button value="">
+            <span class="answer_text"></span>
+        </button> -->
+        <div id="result_message"></div>
+    </section>
+    <img src="./img/cat.png" alt="">
+</body>
+<script src="./js/index.js"></script>
+</html>

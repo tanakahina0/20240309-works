@@ -1,0 +1,113 @@
+@charset "UTF-8";
+h2,section {
+    text-align: center;
+}
+
+section {
+    color: rgb(40, 40, 40);
+}
+
+h2 {
+    color: rgb(237, 80, 116);
+}
+
+/* appearance:noneで、デフォルトのCSSをなくす */
+button {
+    color: rgb(40, 40, 40);
+    padding: 10px;
+    width: 220px;
+    background-color: #fff;
+    border-color: #ffaec1;
+    border-radius: 25px;
+    transition: .3s;
+    margin:0 10px 10px 10px;
+} 
+button:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    box-shadow: #ffaec1;
+    box-shadow: 0px 5px 5px 0px rgba(244, 180, 196, 0.182)
+}
+#result_message {
+    margin: 10px auto 0;
+}
+#question_sentence {
+    color: rgb(40, 40, 40);
+    font-weight: bold;
+    margin-top: 100px;
+}
+
+
+body {
+    background-color: #fff3fb;
+}
+
+img {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 300px;
+}
+
+
+
+/* 肉球全体 */
+/* .pad{
+    position: absolute;
+  }
+  
+  /* 指球全体 
+  .digitals{
+    position: absolute;
+  }
+  
+  /* 指球単体 
+  .digital{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 25px;
+    height: 40px;
+    border: 1px solid #fff;
+    border-radius: 100%;
+    box-sizing: border-box;
+    background: #fff;
+  }
+  
+  .digital:nth-child(1){
+    top: 30px;
+    left: 0;
+    transform: rotate(-10deg);
+  }
+  
+  .digital:nth-child(2){
+    top: 5px;
+    left: 30px;
+  }
+  
+  .digital:nth-child(3){
+    top: 5px;
+    left: 60px;
+  }
+  
+  .digital:nth-child(4){
+    top: 30px;
+    left: 90px;
+    transform: rotate(10deg);
+  }
+  
+  /* 掌球 
+  .metacarpal{
+    position: absolute;
+    top: 50px;
+    left: 33px;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background: #ffffff;
+    box-shadow:
+       12px 15px 0 0 #fff,
+      -12px 15px 0 0 #fff;
+  }
+  
+   */

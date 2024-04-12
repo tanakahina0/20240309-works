@@ -49,4 +49,5 @@ img {
     bottom: 0;
     width: 300px;
     z-index:-1;
+    user-select: none;
 }

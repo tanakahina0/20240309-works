@@ -53,12 +53,9 @@ img {
 }
 
 @media screen and (max-width: 480px) {
-	#question_sentence {
-        color: rgb(40, 40, 40);
-        font-weight: bold;
-        margin-top: 20%;
-    }
-    button:hover {
-      pointer-events: none;
+    #question_sentence {
+	color: rgb(40, 40, 40);
+	font-weight: bold;
+	margin-top: 20%;
     }
 }
